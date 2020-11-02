@@ -13,7 +13,8 @@ code {
 }
 
 .github-profile {
-	margin: 1rem;
+  margin: 1rem;
+  width: fit-content;
 
 }
 
@@ -29,6 +30,7 @@ img {
 .name {
   font-weight: bold;
   text-align: left;
+  font-size: 1.50rem;
 }
 
 .company {
@@ -48,6 +50,6 @@ form {
 
 .header {
 	text-align: center;
-  font-size: 1.5rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
 }
