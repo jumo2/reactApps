@@ -24,8 +24,8 @@ const PlayNumber = props => (
 const StarMatch = () => {
 
   const [stars, setStars] = useState(utils.random(1,9));
-  const [availableNums, setAvailableNums] = useState([1,2,3,4,5]);
-  const [candidateNums, setCandidateNums] = useState([2,3]);
+  const [availableNums, setAvailableNums] = useState(utils.range(1,9));
+  const [candidateNums, setCandidateNums] = useState([]);
 
   const candidatesAreWrong = utils.sum(candidateNums) > stars;
 
@@ -38,7 +38,7 @@ const StarMatch = () => {
     }
     return 'available';
 
-  }
+  };
 
 
 
